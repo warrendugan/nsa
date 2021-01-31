@@ -106,8 +106,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "nx format:write && nx affected:lint",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "pre-commit": "nx format:write && nx affected:lint"
     }
   },
   "config": {
