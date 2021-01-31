@@ -20,16 +20,16 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#ffffff" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nottinghamsheriff.app/" />
+        <meta property="og:url" content="https://nottinghamsheriff.app" />
         <meta property="og:title" content="Nottingham Sheriff App" />
         <meta property="og:description" content="A safe place for the common person on the internet." />
-        <meta property="og:image" content="/award-outline-hero.png" />
+        <meta property="og:image" content="https://nottinghamsheriff.app/award-outline-hero.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://nottinghamsheriff.app" />
         <meta property="twitter:title" content="Nottingham Sheriff App" />
         <meta property="twitter:description" content="A safe place for the common person on the internet." />
-        <meta property="twitter:image" content="/award-outline-hero.png" />
+        <meta property="twitter:image" content="https://nottinghamsheriff.app/award-outline-hero.png" />
       </Head>
       <main>
         <h2>Nottingham Sheriff App</h2>
