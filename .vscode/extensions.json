@@ -4,6 +4,12 @@
     "angular.ng-template",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "esbenp.prettier-vscode",
-    "firsttris.vscode-jest-runner"
+    "firsttris.vscode-jest-runner",
+    "christian-kohler.npm-intellisense",
+    "dracula-theme.theme-dracula",
+    "christian-kohler.path-intellisense",
+    "jock.svg",
+    "shd101wyy.markdown-preview-enhanced",
+    "dbaeumer.vscode-eslint"
   ]
 }

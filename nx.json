@@ -1,6 +1,6 @@
 {
   "npmScope": "nsa",
-  "affected": { "defaultBase": "master" },
+  "affected": { "defaultBase": "main" },
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": { "dependencies": "*", "devDependencies": "*" },
@@ -11,14 +11,21 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "accessToken": "Njc5MjMwZTEtN2JjZC00OGViLThkMjUtNmMzZTU0YTUxZDlifHJlYWQtd3JpdGU=",
+        "cacheableOperations": ["build", "test", "lint", "e2e"],
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
     }
   },
   "projects": {
     "www": { "tags": [] },
     "www-e2e": { "tags": [], "implicitDependencies": ["www"] },
     "api": { "tags": [] },
-    "api-interfaces": { "tags": [] }
+    "api-interfaces": { "tags": [] },
+    "coming-soon": { "tags": [] },
+    "coming-soon-e2e": { "tags": [], "implicitDependencies": ["coming-soon"] }
   }
 }
