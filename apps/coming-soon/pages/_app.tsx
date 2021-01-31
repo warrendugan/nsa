@@ -9,7 +9,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Nottingham Sheriff App</title>
         <meta name="title" content="Nottingham Sheriff App" />
-        <meta name="description" content="A safe place for the common person on the internet. " />
+        <meta name="description" content="A safe place for the common person on the internet." />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -22,13 +22,13 @@ function CustomApp({ Component, pageProps }: AppProps) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://nottinghamsheriff.app/" />
         <meta property="og:title" content="Nottingham Sheriff App" />
-        <meta property="og:description" content="A safe place for the common person on the internet. " />
+        <meta property="og:description" content="A safe place for the common person on the internet." />
         <meta property="og:image" content="/award-outline-hero.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://metatags.io/" />
         <meta property="twitter:title" content="Nottingham Sheriff App" />
-        <meta property="twitter:description" content="A safe place for the common person on the internet. " />
+        <meta property="twitter:description" content="A safe place for the common person on the internet." />
         <meta property="twitter:image" content="/award-outline-hero.png" />
       </Head>
       <main>
